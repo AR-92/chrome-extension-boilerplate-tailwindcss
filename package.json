@@ -2,9 +2,8 @@
   "name": "boilerplate-tailwindcss-extension",
   "version": "1.0.0",
   "description": "chrome extension with tailwindcss boilerplate",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev-TWC": "npx tailwindcss -i ./src/assets/css/input.css -o ./dist/assets/css/output.css --watch"
   },
   "repository": {
     "type": "git",
